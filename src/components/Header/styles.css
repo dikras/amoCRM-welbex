@@ -1,0 +1,24 @@
+.header {
+  height: 55px;
+  border: 1px solid red;
+  padding: 20px 16px;
+}
+
+.header-nav__list {
+  display: flex;
+}
+
+.header-nav__item {
+  color: #E4E5EA;
+  text-transform: uppercase;
+
+  font-style: normal;
+  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  margin-right: 16px;
+  cursor: pointer;
+}
+

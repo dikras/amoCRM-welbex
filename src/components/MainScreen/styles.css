@@ -1,0 +1,74 @@
+.main-page {
+  border: 1px solid red;
+  padding: 40px 34px 59px 14px;
+}
+
+.main-page__heading {
+  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #E4E5EA;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.main-page__brandname {
+  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-page__title {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #E4E5EA;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+
+.main-page__text {
+  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #E4E5EA;
+  margin-bottom: 20px;
+}
+
+.main-page__notion {
+  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-page__item {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #E4E5EA;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 14px;
+}

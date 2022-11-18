@@ -31,12 +31,24 @@ function Footer() {
         <div className="footer-nav__contacts">
         <h2 className="footer-nav__title">Контакты</h2>
           <ul className="footer-nav__list">
-            <li className="footer-nav__item"><a href="tel:+75555555555">+7 555 555-55-55</a></li>
+            <li className="footer-nav__item footer-nav__item--phone"><a href="tel:+75555555555">+7 555 555-55-55</a></li>
             <li className="footer-nav__item">
               <ul className="footer-nav__socials-list">
-                <li className="footer-nav__socials-item"></li>
-                <li className="footer-nav__socials-item"></li>
-                <li className="footer-nav__socials-item"></li>
+                <li className="footer-nav__socials-item">
+                  <a className="footer-nav__socials-link footer-nav__socials-link--telegram" href="/#">
+                    <span className="visually-hidden">Telegram</span>
+                  </a>
+                </li>
+                <li className="footer-nav__socials-item">
+                  <a className="footer-nav__socials-link footer-nav__socials-link--viber" href="/#">
+                    <span className="visually-hidden">Viber</span>
+                  </a>
+                </li>
+                <li className="footer-nav__socials-item">
+                  <a className="footer-nav__socials-link footer-nav__socials-link--whatsapp" href="/#">
+                    <span className="visually-hidden">Whatsapp</span>
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="footer-nav__item">Москва, Путевой проезд 3с1, к 902</li>

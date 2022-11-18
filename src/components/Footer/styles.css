@@ -1,7 +1,7 @@
 .footer {
-  height: 559px;
-  border: 1px solid red;
   padding: 45px 16px 60px 15px;
+  background-color: #1E1E1E;
+  box-sizing: content-box;
 }
 
 .footer-nav__menu {
@@ -34,6 +34,14 @@
   margin-bottom: 10px;
 }
 
+.footer-nav__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav__item--phone {
+  margin-bottom: 8px;
+}
+
 .footer-nav__about {
   margin-bottom: 30px;
 }
@@ -44,16 +52,40 @@
 
 .footer-nav__socials-list {
   margin-top: 11px;
+  display: flex;
+}
+
+.footer-nav__socials-item {
+  margin-right: 10px;
+}
+
+.footer-nav__socials-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-nav__socials-link--telegram {
+  background-image: url('../../../public/img/mobile/telegram.svg');
+  background-repeat: no-repeat;
+}
+
+.footer-nav__socials-link--viber {
+  background-image: url('../../../public/img/mobile/viber.svg');
+  background-repeat: no-repeat;
+}
+
+.footer-nav__socials-link--whatsapp {
+  background-image: url('../../../public/img/mobile/whatsapp.svg');
+  background-repeat: no-repeat;
 }
 
 .footer-nav__contacts {
   margin-bottom: 50px;
 }
 
-.footer__copyright {
-  margin-top: 0;
-  margin-bottom: 5px;
-
+.footer__copyright,
+.footer__policy  {
   font-family: 'Montserrat', 'Open Sans', sans-serif;;
   font-style: normal;
   font-weight: 400;
@@ -61,12 +93,11 @@
   line-height: 15px;
 }
 
-.footer__policy {
-  font-family: 'Montserrat', 'Open Sans', sans-serif;;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
+.footer__copyright {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
 
+.footer__policy {
   text-decoration-line: underline;
 }

@@ -2,6 +2,10 @@
   padding: 20px 16px;
 }
 
+.header__logo {
+  display: none;
+}
+
 .header-nav__list {
   display: flex;
 }
@@ -15,8 +19,121 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-
   margin-right: 16px;
-  cursor: pointer;
 }
 
+.header-nav__item:nth-child(5),
+.header__contacts {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .header {
+    position: absolute;
+    height: 73px;
+    width: 1140px;
+    left: 150px;
+    top: 46px;
+
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .header-nav__list {
+    margin-right: 137px;
+  }
+
+  .header-nav__item {
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-right: 30px;
+
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  .header-nav__item:nth-child(5),
+  .header__contacts {
+    display: block;
+    margin-right: 0;
+  }
+
+  .header__logo {
+    display: block;
+    margin-right: 27px;
+    margin-top: 11px;
+  }
+
+  .header__img {
+    margin-right: 8px;
+  }
+
+  .header__brand {
+    margin-bottom: 5px;
+  }
+
+  .header__text {
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 165px;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .header-nav {
+    margin-top: 15px;
+  }
+
+  .header__contacts {
+    margin-top: 17px;
+    display: flex;
+    border: 1px solid red;
+  }
+
+  .header__phone {
+    display: block;
+    margin-right: 49px;
+    width: 143px;
+  }
+
+  .heder__socials-list {
+    display: flex;
+  }
+
+  .header__socials-item {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .header__socials-item:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .header__socials-link {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  .header__socials-link--telegram {
+    background-image: url('../../../public/img/mobile/telegram.svg');
+    background-repeat: no-repeat;
+  }
+  
+  .header__socials-link--viber {
+    background-image: url('../../../public/img/mobile/viber.svg');
+    background-repeat: no-repeat;
+  }
+  
+  .header__socials-link--whatsapp {
+    background-image: url('../../../public/img/mobile/whatsapp.svg');
+    background-repeat: no-repeat;
+  }
+}

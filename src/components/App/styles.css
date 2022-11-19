@@ -32,16 +32,13 @@ a {
 }
 
 body {
-  width: 320px;
-  margin: 0 auto;
+  min-width: 320px;
   background-color: #1E1E1E;
 }
 
 @media (min-width: 1440px) {
   body {
-    width: 1440px;
-    padding: 46px 150px 20px 147px;
-    position: relative;
+    min-width: 1440px;
   }
 }
 

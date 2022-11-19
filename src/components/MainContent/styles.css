@@ -33,7 +33,7 @@
   left: 29px;
   top: 402px;
 
-  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
   box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
   backdrop-filter: blur(2px);
 }
@@ -147,7 +147,7 @@
   left: 0;
 }
 
-.main-content__item:nth-child(3) {
+.main-content__item:nth-child(4) {
   margin-right: 15px;
 }
 
@@ -155,7 +155,20 @@
   margin-right: 0;
 }
 
+.main-content__span {
+  display: none;
+}
+
+.main-content__item--widget,
+.main-content__item--crm {
+  display: none;
+}
+
 @media (min-width: 1440px) {
+  .main-content {
+    height: 720px;
+  }
+
   .main-content__bg-top {
     position: absolute;
     top: -154px;
@@ -171,7 +184,7 @@
     background: none;
     backdrop-filter: none;
     padding: 0;
-    width: 1440px;
+    width: 100%;
     height: 513px;
   }
 
@@ -202,7 +215,166 @@
 
   .main-content__heading {
     margin-top: 209px;
-    margin-left: 147px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 58px;
+    width: 362px;
+  }
+
+  .main-content__brandname {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .main-content__title {
+    width: 275px;
+  }
+
+  .main-content__glass {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-content__wrapper:nth-child(2) {
+    margin-top: 224px;
+    position: relative;
+  }
+
+  .main-content__text {
+    width: 291px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .main-content__notion {
+    text-transform: uppercase;
+  }
+
+  .main-content__list {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-content__item {
+    padding-left: 0;
+    margin-bottom: 30px;
+    width: 164px;
+    text-transform: uppercase;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: right;
+    letter-spacing: 0.05em;
+  }
+
+  .main-content__item::before {
+    display: none;
+  }
+
+  .main-content__item:nth-child(1) {
+    margin-right: 36px;
+  }
+
+
+  .main-content__item:nth-child(1),
+  .main-content__item:nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  .main-content__item:nth-child(2),
+  .main-content__item:nth-child(5) {
+    display: none;
+  }
+
+  .main-content__item:nth-child(6) {
+    width: 130px;
+    text-align: right;
+  }
+
+  .main-content__item--widget {
+    display: block;
+    order: 1;
+    margin-right: 31px;
+  }
+
+  .main-content__item--dashboard {
+    width: 145px;
+    order: 2;
+    flex-grow: 1;
+  }
+
+  .main-content__item--dashboard .main-content__span {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .main-content__item:nth-child(4) {
+    margin-right: 0;
+  }
+
+  .main-content__item--audit {
+    order: 3;
+  }
+  .main-content__item--crm {
+    display: block;
+    order: 4;
+    flex-grow: 1;
+  }
+
+  .main-content__span {
+    display: block;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: lowercase;
+  }
+
+  .main-content__span-crm {
+    text-transform: uppercase;
+  }
+
+  .main-content__button {
+    position: absolute;
+    top: 335px;
+    right: 0;
+    display: block;
+    width: 262px;
+    background-color: #4077F3;
+
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    padding: 21px 0 21px;
+    color: #E4E5EA;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .main-content__bg-small-ball {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 411px;
+    top: 341px;
+    border-radius: 50%;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
   }
 }
 

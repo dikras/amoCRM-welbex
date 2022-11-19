@@ -7,6 +7,7 @@
   .main-page {
     width: 1440px;
     position: relative;
-    padding-left: 150px;
+    padding-left: 147px;
+    padding-right: 150px;
   }
 }

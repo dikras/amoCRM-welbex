@@ -1,16 +1,9 @@
 import "./styles.css";
-import Header from "../Header/Header";
-import MainContent from "../MainContent/MainContent";
-import Footer from "../Footer/Footer";
+import MainPage from "../MainPage/MainPage";
 
 function App() {
   return (
-    <>
-      <Header />
-      <MainContent />
-      <Footer />
-    </>
-    
+    <MainPage />
   );
 }
 

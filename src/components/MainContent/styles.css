@@ -155,4 +155,55 @@
   margin-right: 0;
 }
 
+@media (min-width: 1440px) {
+  .main-content__bg-top {
+    position: absolute;
+    top: -154px;
+    left: 602px;
+  }
+
+  .main-content__bg-bottom {
+    top: 251px;
+    left: -102px;
+  }
+
+  .main-content__glass {
+    background: none;
+    backdrop-filter: none;
+    padding: 0;
+    width: 1440px;
+    height: 513px;
+  }
+
+  .main-content__bg-purple-ball {
+    height: 60px;
+    width: 60px;
+    left: 718px;
+    top: -2px;
+    border-radius: 50%;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+  }
+
+  .main-content__bg-red-ball {
+    width: 83px;
+    height: 83px;
+    left: 369px;
+    top: 83px;
+    border-radius: 50%;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+  }
+
+  .main-content__heading {
+    margin-top: 209px;
+    margin-left: 147px;
+  }
+}
+
 

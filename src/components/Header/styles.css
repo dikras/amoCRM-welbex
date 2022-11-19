@@ -29,16 +29,15 @@
 
 @media (min-width: 1440px) {
   .header {
-    position: absolute;
     height: 73px;
     width: 1140px;
-    left: 150px;
-    top: 46px;
 
     display: flex;
     justify-content: flex-start;
     padding-top: 0;
     padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 90px;
   }
 
   .header-nav__list {
@@ -98,7 +97,7 @@
 
   .header__phone {
     display: block;
-    margin-right: 49px;
+    margin-right: 47px;
     width: 143px;
   }
 
@@ -117,8 +116,8 @@
 
   .header__socials-link {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 
   .header__socials-link--telegram {

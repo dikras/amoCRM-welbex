@@ -155,12 +155,10 @@
   margin-right: 0;
 }
 
-.main-content__span {
-  display: none;
-}
-
+.main-content__span,
 .main-content__item--widget,
-.main-content__item--crm {
+.main-content__item--crm,
+.main-content__button {
   display: none;
 }
 

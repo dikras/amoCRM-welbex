@@ -94,7 +94,6 @@
   .header__contacts {
     margin-top: 17px;
     display: flex;
-    border: 1px solid red;
   }
 
   .header__phone {

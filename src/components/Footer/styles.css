@@ -102,3 +102,7 @@
   text-decoration-line: underline;
   margin: 0;
 }
+
+@media (min-width: 1440px) {
+  
+}
